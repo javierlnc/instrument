@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;;
+}
+body{
+    background-color: #252525;
+    color:#FFFFFE;
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+}
+.header .header__logo{
+    display: inline;
+    width: 50%;
+    font-family: 'Koulen', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+    font-family: 'Koulen', cursive;
+    margin-right: 10px;
+}
+.menu .menu__item a{
+    color: #FFFFFE;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.main{
+    width: 90%;
+    margin: 20px auto;
+}
+.intro{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.intro .intro__item{
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.intro .intro__copy{
+    margin-top: 40px;
+    font-size: 1.8rem;
+    width: 50%;
+    
+}
+.coding{
+    width: 100%;
+    min-height: 300px;
+    margin: 50px auto;
+}
+.coding .coding__image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.coding .coding__copy{
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 4rem;
+    width: 50%;
+    margin: 40px auto;
+}
+.skills .skills__item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+    margin: 90px auto;
+}
+.skills .skills--image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.skills__item .skills--copy{
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
