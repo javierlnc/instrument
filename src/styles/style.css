@@ -43,6 +43,7 @@ body{
     color: #FFFFFE;
     text-decoration: none;
     margin: 0 10px;
+    cursor: pointer;
 }
 .main{
     width: 90%;
@@ -50,6 +51,7 @@ body{
 }
 .intro{
     width: 100%;
+    height: 80vh;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -77,20 +79,21 @@ body{
     object-fit: cover;
 }
 .coding .coding__copy{
-    font-size: 2.8rem;
+    font-size: 4rem;
     font-weight: 500;
     text-align: center;
     line-height: 4rem;
-    width: 50%;
-    margin: 40px auto;
+    width: 70%;
+    margin: 180px auto;
 }
 .skills .skills__item{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
     width: 100%;
     height: 300px;
     margin: 90px auto;
+    justify-items: center;
 }
 .skills .skills--image{
     width: 100%;
@@ -99,6 +102,56 @@ body{
     object-position: center;
 }
 .skills__item .skills--copy{
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 2.8rem;
+    width: 90%;
+}
+.button{
+   display: flex;
+   width: 180px;
+   height: 50px;
+   background-color: #FFFFFE;
+   border-radius: 20px;
+   place-content: center;
+   place-items: center;
+   font-size: 1.6rem;
+   color: #252525;
+   text-decoration: none;
+   margin-top: 20px;
+
+}
+.button--logo{
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icon/right-arrow-alt-regular-24.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.skills--end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px auto;
+}
+.skills--end p{
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 4rem;
+    max-width: 60%;
+    margin-bottom: 30px;
+}
+.menu__item a:hover{
+    color: #edf250;
+    transform: rotate(0.9deg);
+}
+.menu__item:hover{
+    transform: rotate(4deg);
+
+}
+.button:hover{
+    transform: rotate(0.9deg);
+
 }
